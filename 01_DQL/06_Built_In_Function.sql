@@ -237,6 +237,7 @@ SELECT LAST_DAY('20240201');
 -- MAKEDATE: 해당 연도의 정수만큼 지난 날짜를 구한다.
 SELECT MAKEDATE(2023, 32);
 
+
 -- MAKETIME(시, 분, 초)
 -- MAKETIME: 시, 분, 초를 이용해서 '시:분:초'의 TIME 형식을 만든다.
 SELECT MAKETIME(17, 03, 02);
